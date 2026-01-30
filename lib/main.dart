@@ -19,7 +19,17 @@ class MyApp extends StatelessWidget{
 Widget build(BuildContext context) {
   return MaterialApp(
     title: 'flutter App',
-    home: MyCardPage(),
+    //home: HomeScreen(),
+    initialRoute: '/',
+    routes: {
+      '/':(context) => HomeScreen(),
+      '/row': (context) => RowPage(),
+      '/column':(context) => ColumnPage(),
+      '/menu':(context) => listview_menu(),
+      '/card':(context) => CardPage(),
+      //'/mycard':(context) => MyCardPage(),
+      MyCardPage.id: (context) => MyCardPage(),
+    },
   );
 }
 }

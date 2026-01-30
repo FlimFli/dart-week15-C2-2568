@@ -9,12 +9,14 @@ class ListMenu {
 }
 
 List<ListMenu> menus = [
-  ListMenu(title: "MENU-1", icon: Icons.person, bkColor: Colors.green),
-  ListMenu(title: "MENU-2", icon: Icons.person_add, bkColor: Colors.blue),
-  ListMenu(title: "MENU-3", icon: Icons.wifi, bkColor: Colors.red),
+  ListMenu(title: "MENU-1", icon: Icons.person, bkColor: Colors.black),
+  ListMenu(title: "MENU-2", icon: Icons.person_add, bkColor: Colors.grey),
+  ListMenu(title: "MENU-3", icon: Icons.wifi, bkColor: Colors.blueGrey),
 ];
 
 class MyCardPage extends StatelessWidget{
+  static String id = '/mycard';
+
   const MyCardPage ({super.key});
 
   @override
