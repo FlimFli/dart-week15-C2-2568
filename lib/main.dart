@@ -1,7 +1,9 @@
 
 import 'package:flutter/material.dart';
+import 'package:flutter_week15/card_page.dart';
 import 'package:flutter_week15/column_page.dart';
 import 'package:flutter_week15/home.dart';
+import 'package:flutter_week15/mycard.dart';
 import 'package:flutter_week15/row_page.dart';
 import 'package:flutter_week15/listview_menu.dart';
 
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget{
 Widget build(BuildContext context) {
   return MaterialApp(
     title: 'flutter App',
-    home: listview_menu(),
+    home: MyCardPage(),
   );
 }
 }
