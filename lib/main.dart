@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_week15/column_page.dart';
 import 'package:flutter_week15/home.dart';
 import 'package:flutter_week15/row_page.dart';
+import 'package:flutter_week15/listview_menu.dart';
 
 void main(){
   runApp(MyApp());
@@ -15,9 +16,8 @@ class MyApp extends StatelessWidget{
 @override
 Widget build(BuildContext context) {
   return MaterialApp(
-    home: ColumnPage(
-     
-    ),
+    title: 'flutter App',
+    home: listview_menu(),
   );
 }
 }
