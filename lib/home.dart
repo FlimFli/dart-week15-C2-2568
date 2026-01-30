@@ -69,7 +69,7 @@ Widget build(BuildContext context) {
           onTap: () {
             debugPrint("Test My Card");
           },
-        ),git config --global --list
+        ),
 
       
       ],
